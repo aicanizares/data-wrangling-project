@@ -20,3 +20,6 @@ Links to data sources:
 - https://raw.githubusercontent.com/aicanizares/data-wrangling-project/refs/heads/main/vegconomistlocal.html
 - https://gfieurope.org/industry/#company-database
 - https://raw.githubusercontent.com/aicanizares/data-wrangling-project/refs/heads/main/GFI_Europe_Company_database_(website_view).csv
+
+Slides presentation:
+- https://docs.google.com/presentation/d/1Ay197tIcD_tBU6K3gSM9w_v3Qw4mQaZQYeD60XzZ1qk/edit?usp=sharing
