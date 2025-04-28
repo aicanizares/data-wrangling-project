@@ -1,0 +1,25 @@
+( function( $ )  {
+
+	$(document).ready( function() {
+
+		$('.leaky-paywall-invoices-generate-invoice').click(function(e) {
+			e.preventDefault();
+
+			var id = $(this).data('id');
+			$('#leaky-paywall-invoices-subscriber-fields-wrap').css('display', 'block');
+			$('#transaction-id-input').val(id);
+
+		});
+
+		$('#leaky-paywall-invoices-billing-details-submit').click(function() {
+			$('#leaky-paywall-invoices-subscriber-fields-wrap').fadeOut();
+		});
+
+		$('#leaky-paywall-invoices-cancel a').click(function(e) {
+			e.preventDefault();
+			$('#leaky-paywall-invoices-subscriber-fields-wrap').css('display', 'none');
+		});
+
+	});
+
+})( jQuery );

@@ -1,0 +1,22 @@
+( function( $ )  {
+
+	$(document).ready( function() {
+
+                $('.lp-display-notice-close').click(function() {
+
+                        $('#lp-display-notice').slideUp();
+
+                        $.ajax({
+                                url     : lp_conditional_display_notice.ajaxurl,
+                                type    : 'POST',
+                                dataType: 'text',
+                                cache   : false,
+                                data    : {
+                                        action  : 'leaky_paywall_conditional_display_notice_close'
+                                }
+                        });
+                });
+
+	});
+
+})( jQuery );

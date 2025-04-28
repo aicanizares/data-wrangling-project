@@ -1,0 +1,984 @@
+/*** Global site */
+
+#menu-overview {
+	display: flex;
+	flex-wrap: wrap;
+}
+#menu-overview li {
+	padding: 8px;
+	padding-right: 15px;
+}
+@media(max-width: 1079px) {
+	.inside-navigation .widget_nav_menu {
+		display: none;
+	}
+}
+#mobile-menu-overview {
+	min-width: 90vw;
+}
+@media(min-width: 1078px) {
+	#mobile-menu-overview {
+		display: none;
+	}
+}
+.custom-html-widget ol {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+.wpp-post-title {
+	display: block;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.3;
+	padding: 10px 12px;
+	padding-left: 20px;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: -10px;
+}
+.custom-html-widget li a:hover,.wpp-list li a:hover {
+	color: #81b800;
+}
+.wpp-list li a, .custom-html-widget li a {
+	color: #fff !important;
+}
+.wpp-list li, .custom-html-widget li {
+	margin-left: 15px;
+	margin-bottom: 5px;  background: #555!important;  font-weight: bold;
+	color: #fff;
+	padding-left: 5px;
+}
+.custom-html-widget li:nth-child(1)::before, .wpp-list li:nth-child(1)::before {
+	content:  "1";
+}
+.custom-html-widget li:nth-child(2)::before, .wpp-list li:nth-child(2)::before {
+	content:  "2";
+}
+.custom-html-widget li:nth-child(3)::before, .wpp-list li:nth-child(3)::before {
+	content:  "3";
+}
+.custom-html-widget li:nth-child(4)::before, .wpp-list li:nth-child(4)::before {
+	content:  "4";
+}
+.custom-html-widget li:nth-child(5)::before, .wpp-list li:nth-child(5)::before {
+	content:  "5";
+}
+.ftflx {
+	display: flex;
+	justify-content: space-between!important;
+	width: 100%;
+}
+
+/** 
+.taxonomy-description p,
+.taxonomy-description details {
+font-size:17px;
+line-height:1.342;
+color: #555;
+font-weight:100;
+}
+**/
+article .sponsored-post-container > p {
+	font-size: 12px!important;
+	font-weight: 100!important;
+	border-bottom: 1px dotted!important;
+}
+.mo-optin-form-description {
+	line-height:1.47;
+}
+.site-footer {
+	background: #fff;
+}
+.site-footer p, .site-footer h2,.site-footer details, .site-footer h3{
+	padding: 10px 12px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.site-footer p, .site-footer h2, .site-footer h3 {
+	margin-bottom: 0px;
+
+}
+.site-footer summary {
+	margin-top: -10px;
+}
+.site-footer p {
+	font-size: 16px;
+}
+.cbxwpbkmarktrig-label, .my-bookmarks-link {
+	color: #555;
+}
+.cbxwpbkmarktrig-label:hover {
+	font-weight: 700;
+}
+.cbxwpbookmark-mylist-item a {
+	font-size: 18px!important;
+}
+@media(min-width:800px) {.leaky_paywall_subscription_option {
+	width:48%;
+}
+	#option-2 .leaky_paywall_subscription_allowed_content {
+		min-height:393px;
+	}
+	.leaky_paywall_subscription_options {
+		justify-content: space-around!important;
+	}
+}
+.tooltip-sub-ben {
+	position: relative;
+/*display: inline-block;*/
+
+}
+.cbxwpbookmark_share {
+	display:none;
+}
+.tooltip-sub-ben .tooltip-sub-ben-text {
+	visibility: hidden;
+	width: 250px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	margin-left: -40px;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+
+.tooltip-sub-ben:hover .tooltip-sub-ben-text {
+	visibility: visible;
+}
+.taxonomy-description details {
+	background: #fff!important;
+}
+.vegconomist-plus-label, .archive.category .tag-vegconomist-plus .entry-title {
+	display: inline;
+}
+.home .st-post-tags p, .archive .st-post-tags p  {
+	display:none;
+}
+.st-post-tags a {
+	padding: 5px 10px;
+	text-decoration: none;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	display: inline-block;
+}
+#alle-organisationen-und-marken-aus-studies-and-numbers, #alle-organisationen-und-marken-aus-opinion, .st-post-tags .sponsored-post-tag, .st-post-tags .vegconomist-plus-tag, .sponsored-post-tag {
+	display:none;
+}
+.vegco-footer-bar-msg h2 {
+	text-align: left;
+}
+#option-4 {
+	display: none;
+}
+.leaky_paywall_subscription_options {
+	justify-content: flex-start;
+	gap: 2%;
+}
+.page-id-84951 .leaky_paywall_subscription_options {
+	justify-content: space-evenly!important;
+}
+.vegco-after-2nd-paragraph-in-content-mobile-only .vegco-after-2nd-paragraph-in-content-mobile-only, .vegco-after-6th-post-archivepages-mobile-only .vegco-after-6th-post-archivepages-mobile-only {
+	max-width: 300px; margin: auto;padding-top: 18px; padding-bottom: 20px; margin-bottom: 50px; margin-top: -10px; border-top: solid 1px #d3d3d3; border-bottom: solid 1px #d3d3d3;
+}
+.search .vegco-after-6th-post-archivepages-mobile-only .vegco-after-6th-post-archivepages-mobile-only, .vegco-after-2nd-paragraph-in-content-mobile-only .vegco-after-2nd-paragraph-in-content-mobile-only {
+	margin-top: 35px;
+}
+
+.single-post .sponsored-post-container, .archive .sponsored-post-container, .search .sponsored-post-container {
+	background: #00000123;
+	padding: 8px 10px;
+}
+.sponsored-post-container  .preview-inside-article {
+	margin-bottom: 8px;
+}
+.sponsored-post-container .sponsored-post-label {
+	display: none;
+}
+.crp_related ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+.entry-content a {
+	text-decoration: none;
+}
+.vegco-billboard-before-header img, 
+.vegco-billboard-before-header {
+	width: 1080px;  
+	max-width: 99vw; 
+	max-height: 100vw;
+	margin: auto; 
+	text-align: center;
+}
+#leaky_paywall_message p {
+	line-height:32px;
+}
+#why-support-vegconomist p {
+	line-height:normal;
+	text-decoration: underline;
+	text-decoration-color: #e3e3e3;
+}
+.leaky-paywall-payment-button a {
+	background-color: #81b800!important;
+}
+.leaky-paywall-payment-button {
+	margin-top: 15px !important;
+}
+#menu-main ul li:last-child {
+	border-top: solid black 1px;
+}
+.single-post .sponsored-post-container {
+	background: #00000123;
+	padding: 8px 10px;
+}
+.preview-inside-article a {
+	font-weight: 700;
+}
+.sponsored-post-container .entry-header a {
+	margin-bottom: 2px;
+	font-weight: 700!important;
+}
+.sponsored-post-container .entry-header p {
+	margin-bottom: 2px;
+	font-weight: 700!important;
+}
+.sponsored-post-container .sponsored-post-label {
+	display: none;
+}
+.tax-organisations_and_brands h1 span, .tax-region h1 span, .tax-people h1 span {
+	font-size: 29px;
+	line-height: 1.3;
+}
+.home .technicaltags-sponsored-sticky  {
+	display: none!important;
+}
+.featured-image .wp-caption .wp-caption-text {
+	padding: 10px;
+	max-width: 770px;
+	margin: auto;
+	line-height: 1.4em;
+}
+.preview-inside-article .wp-caption .wp-caption-text, .archive .wp-caption .wp-caption-text, .home .wp-caption .wp-caption-text, .search  .wp-caption-text {
+	font-size: 2px!important;
+	display: none!important;
+}
+.home .technicaltags-sponsored-sticky  {
+	display: none!important;
+}
+
+.mailoptin-click-trigger {
+	padding: 4px 18px;
+	border: solid #555 1px;
+	background: #555;
+	color: #fff!important;
+}
+.mailoptin-click-trigger:hover{
+	padding: 4px 18px;
+	border: solid #81b800 1px;
+	background: #81b800;
+}
+.home .st-post-tags h2, .archive .st-post-tags h2 {
+	display: none;
+}
+.st-post-tags ul {
+	margin-left: 0px!important;
+}
+.crp_related_widget a {
+	text-decoration: none;
+}
+.byline, .author, .tags-links {
+	display: none;
+}
+.widget-title {
+	border-bottom: solid #333 2px; padding-bottom: 5px; font-weight: 900; font-size: 16px;
+}
+.inside-site-info {
+	flex-wrap: wrap;
+}
+.copyright-bar {
+	order: 10!important;
+	margin-top: 25px;
+}
+h2 a {
+	color: #222;
+}
+h2 a:hover {
+	color: #666;
+}
+.secondary-menu-toggle {
+	text-align: right!important;
+}
+.wpsp-read-more  {
+	width: 100%!important;
+	text-align: center;
+}
+.wpsp-read-more a:hover {
+	color: white!important;
+}
+.read-more {
+
+	border: 2px solid #222;
+	color: #222!important;
+	background: white!important;
+}
+.read-more:hover {
+
+	border: 2px solid #222;
+	color: white!important;
+	background: #222!important;
+}
+
+.read-more-container {
+	text-align:center;
+}
+
+.archive .entry-content figure {
+	display: none !important;
+}
+
+.vegco-adlabel {
+	font-size: 9px;
+	color: #888!important;
+}
+.top-bar .vegco-widget {
+	margin: auto!important;
+	margin-top:  12px!important;
+	margin-bottom: 8px!important;
+}
+.icon-categories {
+	display: none!important;
+}
+.cat-links {
+	color: white;
+}
+.cat-links a, .org-brand-links a {
+	display:inline-block!important;
+	color: #333;
+	font-weight: 300;
+	text-decoration: none;
+	max-width: 100%px;
+	padding: 0px 8px;
+	border-radius:42px;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 12px;
+	line-height: 2;
+	border: solid 1px;
+	line-break: none!important;
+}
+.read-more {
+	font-size: 16px!important;
+	padding:4px 8px!important;
+	font-weight: 300!important;
+	border: solid 1px!important;
+	margin-bottom: 15px;
+}
+
+
+.dnlsupu a {
+	color: #fff;
+	text-decoration: none;
+}
+.dnlsupu {
+	background: #81b800;
+}
+.dnlsupu:hover {
+	background: #575760;
+}
+.header-ad-more-btn {
+	display: block;
+	padding-top: 5px!important;
+	padding-bottom: 5px!important;
+	margin-top: 5px;
+	margin-bottom:2px;
+}
+.trans-medium-rect-top img {
+	display: block;
+	max-width: 100%;
+	margin: auto!important;
+
+}
+.tag-cloud-link {
+	padding: 2px 8px!important;
+	color: #222;
+}
+.tag-cloud-link:hover {
+	padding: 2px 10px!important;
+	color: #81b800;
+	border: solid #81b800 1px!important;
+}
+.is-logo-image {
+	margin-top: 2px!important;
+	margin-bottom: 5px!important;
+}
+.trans-adlabel {
+	text-align: center;
+	font-size: 11px;
+	color: #999199;
+}
+.load-more {
+	margin-bottom: 33px!important;
+}
+.main-navigation, .top-bar, .inside-header {
+	border-bottom: solid #9997 1px;
+}
+.sponsored-post-container a p {
+	display: none!important;
+}
+.trans-header img {
+	margin: 10px;
+
+}
+.site-logo {
+	order: unset!important;
+}
+.inside-header * {
+	vertical-align: middle;
+}
+
+#block-21 {
+	width: 100%!important;
+	margin: auto!important;
+}
+.trans-billboard {
+	padding-bottom: 0px!important;
+	margin-bottom: -40px;
+}
+
+.wpp-post-title {
+	text-decoration: none!important;
+}
+.wpp-post-title p {
+	margin-bottom:0;
+}
+
+@media(min-width: 460px) {
+	.trans-billboard {
+		padding-bottom: 0px!important;
+		margin-bottom: -30px;
+	}
+}
+.st-post-tags h3 {
+	font-size: 16px;
+
+}
+.home .st-post-tags h3 , .archive .st-post-tags h3 {
+	display: none;
+	font-size: 15px;
+}
+.st-post-tags {
+	margin-right: 0px;
+	margin-top: 10px;
+}
+.st-post-tags a:hover{
+	font-size: 14px!important;
+	font-weight: 700;
+
+}
+.st-post-tags a {
+	font-size: 14px!important;
+	font-weight: 500;
+	background: #55555e;
+	color: #fff;
+	border-radius: 2px;
+	text-transform: uppercase;
+}
+
+h2 > p, h3 p, h1 p {
+	margin-bottom: 0px!important;
+}
+
+.trans-billboard-top-of-site {
+	justify-self: center!important;
+	align-self: center!important;
+}
+.post-term-box ul {
+	display: block;
+
+}
+.post-term-box ul li {
+	list-style-type: none!important;
+	display: inline-block;
+	margin-right: 12px;
+}
+.post-term-box ul li a {
+	text-decoration: none!important;
+	padding: 4px 8px;
+	border: solid #555 2px;
+	border-radius: 2%;
+	font-weight: 500;
+	list-style-type: none!important;
+	color: white;
+	background: #555;
+	font-size: 13px;
+	display: block;
+	margin-bottom: 8px!important;
+}
+.post-term-box ul li a:hover {
+	text-transform: uppercase;
+	text-decoration: none!important;
+	padding: 4px 12px;
+	border: solid #81b800 2px;
+	border-radius: 2%;
+	font-weight: 800;
+	list-style-type: none!important;
+	color: white;
+	background: #81b800;
+}
+
+#menu-lang a {
+	text-decoration: none;
+	font-size: 15px;
+}
+.home  figure, .archive  figure, .search figure, .search figure {
+	display: none;
+}
+.preview-inside-article, .home .inside-article, .archive .inside-article, .search .inside-article {
+	display: flex;
+	flex-wrap: wrap;
+}
+.preview-inside-article .post-image, .home .inside-article .post-image, .archive .inside-article .post-image, .search  .inside-article .post-image  {
+	width: 25%;
+}
+.preview-inside-article .post-image img, .home .inside-article .post-image img, .archive .inside-article .post-image img, .search .inside-article .post-image img {
+	width: 90%;
+	height: auto!important;
+	margin: auto;
+	text-align: center;
+	padding-right: 10px;
+}
+.preview-inside-article .entry-header, .home .inside-article .entry-header, .archive .inside-article .entry-header, .search .inside-article .entry-header{
+	width: 70%;
+	height: auto!important;
+	padding-top: 10px;
+}
+.home .entry-summary,.home .entry-content, .archive .entry-summary, .archive .entry-content, .search .entry-summary, .search .entry-content {display: none;}
+.read-more-container {
+	display: none;
+}
+
+#secondary-navigation {
+	display: none;
+}
+
+.inside-top-bar, .inside-navigation {
+	padding-left: 15px!important;
+	padding-right: 15px!important;
+}
+.entry-header {
+	padding-top: 0!important;
+}
+#right-sidebar {
+	margin-top:10px!important;
+}
+
+.trans-mobile-rectangle-top {
+	display: block;
+}
+
+@media(max-width: 520px) {
+	.inside-top-bar .widget {
+		margin: 0px!important;
+	}
+	.menu {
+		margin: 0px!important;
+		padding: 0px!important;
+		width: 70vw!important;
+	}
+	#menu-lang {
+		flex-wrap: wrap;
+	}
+	.home .inside-article {
+		display: block;
+		flex-wrap: wrap;
+	}
+	.home .inside-article .post-image, 	.archive .inside-article .post-image {
+		width: 100%;
+	}
+	.home .inside-article .entry-header, 	.archive .inside-article .entry-header {
+		width: 100%;
+		height: auto!important;
+	}
+	.home .inside-article {
+		display: block;
+		flex-wrap: wrap;
+	}
+	.home .inside-article .post-image, 	.archive .inside-article .post-image {
+		width: 100%;
+	}
+	.home .inside-article .entry-header, 	.archive .inside-article .entry-header {
+		width: 100%;
+		height: auto!important;
+	}
+	.preview-inside-article .post-image, .preview-inside-article .entry-header {
+		width: 90%;
+		margin: auto;
+	}
+	.preview-inside-article , .home .inside-article, .archive .inside-article, .search .inside-article {
+		display: block;
+		flex-wrap: wrap;
+	}
+	.preview-inside-article .post-image, 
+	.home .inside-article .post-image, 	
+	.archive .inside-article .post-image,  
+	.search .inside-article .post-image {
+		width: 100%;
+	}
+	.preview-inside-article .entry-header, 
+	.home .inside-article .entry-header, 	
+	.archive .inside-article .entry-header, 
+	.search  .inside-article .entry-header {
+		width: 100%;
+		height: auto!important;
+	}
+}
+/* Stick sidebars */
+@media(min-width: 769px) {
+	/* stick right sidebar */
+	.inside-right-sidebar,
+	.inside-left-sidebar  {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 60px;
+	}
+	.vegco-after-6th-post-archivepages-mobile-only {
+		display: none;
+	}
+}
+@media (max-width: 770px){
+	ul li li {
+		padding-left: 15px;
+	}
+
+	.is-logo-image {
+		margin-top:-10px;
+	}
+}
+@media (max-width: 870px){
+
+	.inside-navigation {
+		padding:3px!important;
+	}
+	.inside-top-bar {
+
+		display: flex;
+		justify-content: space-between!important;
+	}
+
+}
+@media (min-width: 420px){
+	.tight-view {
+		display: none!important;
+	}
+
+}
+@media (max-width: 420px){
+	.wide-view {
+		display: none!important;
+	}
+	/*#menu-social, #menu-lang {
+		display: flex!important;
+		justify-content: space-between!important;
+
+		width: 280px;
+		margin: auto!important;		margin-top: 12px!important;
+	}
+	.inside-top-bar {
+		justify-content: center!important;
+	}*/
+}
+
+#leaky_paywall_message {
+	line-height: initial;
+}
+
+.required {
+	font-style: normal!important;
+}
+
+.leaky-paywall-subscription-details-subscription-length {
+	display: none;
+}
+
+.vegconomist-incontent-nag-header span{
+	display: inline-block;
+}
+
+#vegconomist-plus-logo-upgrade-message span {
+	display: inline!important;
+}
+
+.vegco-block {
+	display: block;
+}
+@media(min-width: 556px) {
+	#leaky_paywall_message .mobile {
+		display: none;
+	}
+}
+@media(max-width: 555px) {
+	#leaky_paywall_message .desktop {
+		display: none;
+	}
+}
+.post-84936 .issuem-leaky-paywall-subscriber-info p {
+	display: none;
+}
+.current-level .leaky-paywall-payment-button {
+	display: none;
+}
+#leaky-paywall-registration-next {
+	min-width: 120px!important;
+}
+.leaky-paywall-form-steps .active .step-number {
+	background: #81b800!important;
+}
+#leaky_paywall_message form label {
+	font-size: 13px!important;
+}
+.leaky_paywall_subscription_allowed_content ul {
+	margin-left: 20px;
+	height: unset;
+}
+@media(min-width: 1079px) {
+	.leaky_paywall_subscription_allowed_content ul {
+	/** height: 325px;   activate if required**/
+	}
+	#leaky_paywall_message img {
+		max-width: 72%!important;
+	}
+}
+
+.leaky-paywall-account-fields h3 {
+	display: none;
+}
+#leaky_paywall_message {
+	margin: 0;
+	padding-top:6%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:3%;
+	border-color: #81b800;
+	box-shadow: 0 0 0.5em 0.65em rgba(0,0,0,0.125);
+}
+.leaky-paywall-payment-button,
+#leaky-paywall-registration-next,
+#leaky-paywall-submit {
+	background-color: #81b800;
+	border: none;
+	border-radius: 1px;
+}
+#leaky-paywall-profile p:nth-child(3), 
+#leaky-paywall-profile p:nth-child(2) {
+	display:none
+}
+
+.leaky_paywall_subscription_allowed_content li {
+	text-align: left;
+}
+
+#vegconomist-plus-sign-header {
+	color: #81b800;
+}
+
+#why-support-vegconomist-expandable {
+	text-align: center;
+}
+
+#why-support-vegconomist {
+	text-align: center;
+	text-decoration:underline !important ;
+}
+
+#vegconomist-plus-logo-upgrade-message {
+	font-family: "League Spartan";
+	font-weight: 900;
+	line-height: 42px;
+	font-size: 28px;
+}
+
+#vegconomist-plussign-logo-upgrade-message {
+	font-family: "League Spartan";
+	color: #81b800;
+	font-weight: 900;
+	line-height: 42px;
+	font-size: 28px;
+}
+
+.vegconomist-incontent-nag-header {
+	font-weight: 500;
+}
+
+.mailpoet-change-email-info, 
+#lostpasswordform legend, 
+#resetpasswordform legend {
+	display: none;
+}
+#issuem-leaky-paywall-articles-remaining-nag {
+	height: auto!important;
+}
+#issuem-leaky-paywall-articles-remaining-nag a {
+	display: block!important;
+	padding-top: 6px; 
+	padding-bottom: 6px;
+	margin: 6px;
+	margin-left: 12x;
+}
+
+.leaky-paywall-subscription-details-wrapperr, 
+#issuem-leaky-paywall-articles-remaining-subscribe-link, 
+#issuem-leaky-paywall-articles-remaining-login-link { 
+	display: none!important;
+}
+
+.leaky-paywall-payment-button a {
+	background: #81b800;
+}
+
+.leaky-paywall-payment-button a:hover {
+	background: #81b800;
+}
+
+#subscription-discount {
+	vertical-align: top;
+}
+
+.subscription-benefits {
+	margin-bottom:12px;
+}
+
+#price-fine-print {
+	margin-top: 12px !important ;
+}
+
+.leaky-paywall-user-fields, .leaky-paywall-account-fields {
+	font-size: 85%;
+}
+
+#wp-submit {
+	background-color: #81b800;
+}
+
+#free-registration-two-newsletters {
+	margin-top: -1em;
+}
+@media(max-width: 768px) {
+	.inside-right-sidebar
+	{
+		margin-top: -25px!important;
+	}
+}
+
+@media (max-width: 1400px) {
+	.vegco-skyscraper-right, .vegco-skyscraper-left {
+		display: none;
+	}
+}
+@media screen and (min-width: 700px) {
+	#sub-page {
+		margin-right: 22em;
+	}
+}
+
+.leaky-paywall-corporate-registration-header {
+	display:none;
+}
+
+@media screen and (min-width: 701px) {
+	#why-support-vegconomist-expandable-below-subscription-cards {
+		margin-right: 500px;
+	}
+}
+
+.subscription-options-title {
+	display:none !important;
+}
+
+#upgrade-message-loyal-discount {
+	border: 4px dotted red;
+	padding: 5px 10px;
+	font-size: 27px; /* Update font-size to 27px */
+	text-align: center !important;
+	display: inline-block;
+	margin: 0 auto !important;
+}
+
+.lp-coupon-submit {
+	background-color: #81b800!important;
+	padding: 14px;
+}
+.lp-coupon-submit:hover {
+	background-color: #555555!important;
+}
+
+h6 {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.footer-bar .widget-title {
+	display:block;
+	text-align:left;
+	font-size: 20px;
+	font-weight: 100;
+	margin-bottom: 12px;
+	border-bottom: none;
+	max-width: 240px;
+}
+
+.maxwidth300 img {
+	width: 300px!important;
+	max-width: 95vw!important;
+	height: auto;
+	margin: auto;
+}
+
+/** If following css does not work, load them as inline css via wp_footer function, 
+if it works, delete this comment before commiting*/
+/** 
+* veg+ nag css 
+*/
+/** https://vegconomist.com/wp-admin/post.php?post=97179&action=edit **/
+#leaky_paywall_message form, 
+#free-registration-two-newsletters, 
+#leaky_paywall_message > i {
+	display: none!important;
+}
+
+/** SP-Label style on archive & search */
+/** https://vegconomist.com/wp-admin/post.php?post=89425&action=edit **/ 
+.archive .sponsored-post-label, 
+.search .sponsored-post-label, 
+.search .entry-title p, 
+.archive .entry-title p {
+	margin-bottom: 2px;
+}
+
+/** lp show content while waiting for nag 
+ Move it to footer**/
+/** https://vegconomist.com/wp-admin/post.php?post=93073&action=edit */
+.body.single article .entry-content { 
+	display: block; 
+}
+
+/** in case this will not work , we will load it in wp_head**/
+/** logged in css **/ 
+/** https://vegconomist.com/wp-admin/post.php?post=104045&action=edit **/ 
+.logged-in .newsletter-mo-vegco-wrap, 
+.logged-in #custom_html-111 {
+	display: none;
+} 
+
+/** Style sponsored post **/
+
+.vegco-highlight-wrapper .sponsored-post-container,
+.sponsored-post-container {
+    background: #00000123;
+	padding: 8px 10px;
+}

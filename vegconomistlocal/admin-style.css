@@ -1,0 +1,7 @@
+table#leaky_paywall_conditional_display_notice .hide-setting {
+  display: none;
+}
+
+table#leaky_paywall_conditional_display_notice #after_num_views {
+    max-width: 68px;
+}
